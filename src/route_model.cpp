@@ -3,4 +3,10 @@
 
 RouteModel::RouteModel(const std::vector<std::byte> &xml) : Model(xml) {
 
+    // CODE: Create RouteModel Nodes
+    int counter = 0;
+    for (Model::Node node : this->Nodes()) { 
+        m_Nodes.push_back(Node(counter, this, node));
+        counter++;
+    }
 }

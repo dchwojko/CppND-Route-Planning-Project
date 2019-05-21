@@ -171,33 +171,6 @@ test/fast:
 	cd /Users/dchwojko/development/udacity/active/cpp-nd/projects/project1/CppND-Route-Planning-Project/build && $(MAKE) -f test/CMakeFiles/test.dir/build.make test/CMakeFiles/test.dir/build
 .PHONY : test/fast
 
-utest_rm_node_dist.o: utest_rm_node_dist.cpp.o
-
-.PHONY : utest_rm_node_dist.o
-
-# target to build an object file
-utest_rm_node_dist.cpp.o:
-	cd /Users/dchwojko/development/udacity/active/cpp-nd/projects/project1/CppND-Route-Planning-Project/build && $(MAKE) -f test/CMakeFiles/test.dir/build.make test/CMakeFiles/test.dir/utest_rm_node_dist.cpp.o
-.PHONY : utest_rm_node_dist.cpp.o
-
-utest_rm_node_dist.i: utest_rm_node_dist.cpp.i
-
-.PHONY : utest_rm_node_dist.i
-
-# target to preprocess a source file
-utest_rm_node_dist.cpp.i:
-	cd /Users/dchwojko/development/udacity/active/cpp-nd/projects/project1/CppND-Route-Planning-Project/build && $(MAKE) -f test/CMakeFiles/test.dir/build.make test/CMakeFiles/test.dir/utest_rm_node_dist.cpp.i
-.PHONY : utest_rm_node_dist.cpp.i
-
-utest_rm_node_dist.s: utest_rm_node_dist.cpp.s
-
-.PHONY : utest_rm_node_dist.s
-
-# target to generate assembly for a file
-utest_rm_node_dist.cpp.s:
-	cd /Users/dchwojko/development/udacity/active/cpp-nd/projects/project1/CppND-Route-Planning-Project/build && $(MAKE) -f test/CMakeFiles/test.dir/build.make test/CMakeFiles/test.dir/utest_rm_node_dist.cpp.s
-.PHONY : utest_rm_node_dist.cpp.s
-
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -211,9 +184,6 @@ help:
 	@echo "... edit_cache"
 	@echo "... install/local"
 	@echo "... test"
-	@echo "... utest_rm_node_dist.o"
-	@echo "... utest_rm_node_dist.i"
-	@echo "... utest_rm_node_dist.s"
 .PHONY : help
 
 
