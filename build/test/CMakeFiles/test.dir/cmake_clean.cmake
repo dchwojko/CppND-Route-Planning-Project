@@ -1,5 +1,4 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/test.dir/utest_route_model_class.cpp.o"
   "../../bin/test.pdb"
   "../../bin/test"
 )

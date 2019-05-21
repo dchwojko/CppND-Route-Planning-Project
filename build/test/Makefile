@@ -171,33 +171,6 @@ test/fast:
 	cd /Users/dchwojko/development/udacity/active/cpp-nd/projects/project1/CppND-Route-Planning-Project/build && $(MAKE) -f test/CMakeFiles/test.dir/build.make test/CMakeFiles/test.dir/build
 .PHONY : test/fast
 
-utest_route_model_class.o: utest_route_model_class.cpp.o
-
-.PHONY : utest_route_model_class.o
-
-# target to build an object file
-utest_route_model_class.cpp.o:
-	cd /Users/dchwojko/development/udacity/active/cpp-nd/projects/project1/CppND-Route-Planning-Project/build && $(MAKE) -f test/CMakeFiles/test.dir/build.make test/CMakeFiles/test.dir/utest_route_model_class.cpp.o
-.PHONY : utest_route_model_class.cpp.o
-
-utest_route_model_class.i: utest_route_model_class.cpp.i
-
-.PHONY : utest_route_model_class.i
-
-# target to preprocess a source file
-utest_route_model_class.cpp.i:
-	cd /Users/dchwojko/development/udacity/active/cpp-nd/projects/project1/CppND-Route-Planning-Project/build && $(MAKE) -f test/CMakeFiles/test.dir/build.make test/CMakeFiles/test.dir/utest_route_model_class.cpp.i
-.PHONY : utest_route_model_class.cpp.i
-
-utest_route_model_class.s: utest_route_model_class.cpp.s
-
-.PHONY : utest_route_model_class.s
-
-# target to generate assembly for a file
-utest_route_model_class.cpp.s:
-	cd /Users/dchwojko/development/udacity/active/cpp-nd/projects/project1/CppND-Route-Planning-Project/build && $(MAKE) -f test/CMakeFiles/test.dir/build.make test/CMakeFiles/test.dir/utest_route_model_class.cpp.s
-.PHONY : utest_route_model_class.cpp.s
-
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -211,9 +184,6 @@ help:
 	@echo "... edit_cache"
 	@echo "... install/local"
 	@echo "... test"
-	@echo "... utest_route_model_class.o"
-	@echo "... utest_route_model_class.i"
-	@echo "... utest_route_model_class.s"
 .PHONY : help
 
 
