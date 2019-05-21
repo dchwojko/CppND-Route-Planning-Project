@@ -27,6 +27,10 @@ class RouteModel : public Model {
         
         Node(){}
         Node(int idx, RouteModel * search_model, Model::Node node) : Model::Node(node), parent_model(search_model), index(idx) {}
+
+        float distance(RouteModel::Node node) const {
+          return std::sqrt(std::pow((x - node.x), 2) + std::pow((y - node.y), 2));
+        }
       
       private:
         // Add private Node variables and methods here.
@@ -42,8 +46,15 @@ class RouteModel : public Model {
     // CODE: The RouteModel Class - public getter function that returns the nodes
     auto & SNodes() { return m_Nodes; }
 
+    // CODE: Create Node to Road Hashmap
+    auto &GetNodeToRoadMap() { return node_to_road; }
+
   private:
     // Add private RouteModel variables and methods here.
     // CODE: The RouteModel Class - Vector of nodes
     std::vector<Node> m_Nodes;
+
+    // CODE: Create Node to Road Hashmap
+    std::unordered_map <int, std::vector<const Model::Road*>> node_to_road;
+    void CreateNodeToRoadHashmap();
 };
