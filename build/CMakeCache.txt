@@ -33,10 +33,10 @@ CAIRO_DLL:FILEPATH=CAIRO_DLL-NOTFOUND
 CAIRO_DLL_DEBUG:FILEPATH=CAIRO_DLL_DEBUG-NOTFOUND
 
 //Path to a file.
-CAIRO_INCLUDE_DIRS:PATH=/usr/X11R6/include/cairo
+CAIRO_INCLUDE_DIRS:PATH=/opt/local/include/cairo
 
 //Path to a library.
-CAIRO_LIBRARIES:FILEPATH=/usr/X11R6/lib/libcairo.dylib
+CAIRO_LIBRARIES:FILEPATH=/opt/local/lib/libcairo.dylib
 
 //Path to a library.
 CAIRO_LIBRARIES_DEBUG:FILEPATH=CAIRO_LIBRARIES_DEBUG-NOTFOUND
@@ -326,7 +326,7 @@ INSTALL_GTEST:BOOL=ON
 PKG_CONFIG_EXECUTABLE:FILEPATH=/usr/local/bin/pkg-config
 
 //Path to a program.
-PYTHON_EXECUTABLE:FILEPATH=//anaconda/bin/python
+PYTHON_EXECUTABLE:FILEPATH=/usr/bin/python
 
 //Use separate postfix for each configuration to make sure you
 // can install multiple build outputs
@@ -578,13 +578,13 @@ CMAKE_UNAME:INTERNAL=/usr/bin/uname
 //ADVANCED property for variable: CMAKE_VERBOSE_MAKEFILE
 CMAKE_VERBOSE_MAKEFILE-ADVANCED:INTERNAL=1
 //Details about finding Cairo
-FIND_PACKAGE_MESSAGE_DETAILS_Cairo:INTERNAL=[/usr/X11R6/include/cairo][/usr/X11R6/lib/libcairo.dylib][v1.14.6()]
+FIND_PACKAGE_MESSAGE_DETAILS_Cairo:INTERNAL=[/opt/local/include/cairo][/opt/local/lib/libcairo.dylib][v1.16.0()]
 //Details about finding GraphicsMagick
 FIND_PACKAGE_MESSAGE_DETAILS_GraphicsMagick:INTERNAL=[/usr/local/Cellar/graphicsmagick/1.3.31/include/GraphicsMagick][/usr/local/Cellar/graphicsmagick/1.3.31/lib/libGraphicsMagick.dylib][v()]
 //Details about finding PkgConfig
 FIND_PACKAGE_MESSAGE_DETAILS_PkgConfig:INTERNAL=[/usr/local/bin/pkg-config][v0.29.2()]
 //Details about finding PythonInterp
-FIND_PACKAGE_MESSAGE_DETAILS_PythonInterp:INTERNAL=[//anaconda/bin/python][v3.5.2()]
+FIND_PACKAGE_MESSAGE_DETAILS_PythonInterp:INTERNAL=[/usr/bin/python][v2.7.16()]
 //Details about finding Threads
 FIND_PACKAGE_MESSAGE_DETAILS_Threads:INTERNAL=[TRUE][v()]
 PC_CAIRO_CFLAGS:INTERNAL=

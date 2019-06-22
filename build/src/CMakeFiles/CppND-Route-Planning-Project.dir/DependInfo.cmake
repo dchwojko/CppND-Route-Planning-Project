@@ -16,7 +16,7 @@ set(CMAKE_CXX_COMPILER_ID "Clang")
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "../thirdparty/pugixml/src"
   "/usr/local/include/io2d"
-  "/usr/X11R6/include/cairo"
+  "/opt/local/include/cairo"
   "/usr/local/Cellar/graphicsmagick/1.3.31/include/GraphicsMagick"
   )
 

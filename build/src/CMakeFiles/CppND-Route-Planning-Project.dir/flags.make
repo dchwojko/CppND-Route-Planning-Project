@@ -6,5 +6,5 @@ CXX_FLAGS = -I/opt/X11/include -isystem/opt/X11/include -isystem/opt/local/inclu
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/Users/dchwojko/development/udacity/active/cpp-nd/projects/project1/CppND-Route-Planning-Project/thirdparty/pugixml/src -isystem /usr/local/include/io2d -isystem /usr/X11R6/include/cairo -isystem /usr/local/Cellar/graphicsmagick/1.3.31/include/GraphicsMagick 
+CXX_INCLUDES = -I/Users/dchwojko/development/udacity/active/cpp-nd/projects/project1/CppND-Route-Planning-Project/thirdparty/pugixml/src -isystem /usr/local/include/io2d -isystem /opt/local/include/cairo -isystem /usr/local/Cellar/graphicsmagick/1.3.31/include/GraphicsMagick 
 

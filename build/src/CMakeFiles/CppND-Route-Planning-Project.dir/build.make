@@ -143,7 +143,7 @@ CppND__Route__Planning__Project_EXTERNAL_OBJECTS =
 ../bin/CppND-Route-Planning-Project: /usr/local/lib/libio2d_cairo_xlib.a
 ../bin/CppND-Route-Planning-Project: /usr/local/lib/libio2d_cairo.a
 ../bin/CppND-Route-Planning-Project: /usr/local/lib/libio2d_core.a
-../bin/CppND-Route-Planning-Project: /usr/X11R6/lib/libcairo.dylib
+../bin/CppND-Route-Planning-Project: /opt/local/lib/libcairo.dylib
 ../bin/CppND-Route-Planning-Project: /usr/local/Cellar/graphicsmagick/1.3.31/lib/libGraphicsMagick.dylib
 ../bin/CppND-Route-Planning-Project: /usr/X11R6/lib/libpixman-1.dylib
 ../bin/CppND-Route-Planning-Project: /usr/local/lib/libfreetype.dylib
